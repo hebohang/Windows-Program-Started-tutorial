@@ -4,6 +4,7 @@ Windows编程入门教程
 # 前言
 主要参考龙书 《DirectX 12 3D 游戏开发实战》 的附录A
 为个人的笔记整理
+环境：VS2019
 
 # 流程分析
 这里分析的是我们的示例代码 HelloWorld_Win.cpp
