@@ -30,3 +30,6 @@ Windows编程入门教程
 - 而窗口过程被绑定在窗口类实例上。
 - 该实例在 CreateWindowW 函数中返回出它对应的句柄，句柄主要可以当作很多函数的参数。
 - 通过在消息循环的代码中（这里在 Run 中）的对应函数（这里是 GetMessage ）把消息的一些信息填充到了所创建的消息实例中，其中就包括了该消息对应窗口的句柄。然后通过 DispatchMessageW 函数（参数是该消息实例的地址，这里是 &msg）去分派给该窗口对应的窗口过程
+
+![image](https://user-images.githubusercontent.com/60227429/150677952-ef088df3-3254-480b-92cb-53e533b17915.png)
+
